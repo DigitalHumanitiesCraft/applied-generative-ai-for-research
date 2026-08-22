@@ -50,7 +50,7 @@ The binding assignment of sources to parts is the feeding map in [[knowledge/pro
 
 The two source repositories are public. The Promptotyping repository carries the MIT licence, and the teaching repository licenses its text content under CC BY 4.0 while checking slide images separately for third-party image rights. The licence of each source stands in the `metadata` block of its Markdown representation.
 
-The vault document is the author's own writing and came from a private Obsidian vault that carries no licence statement. Its full text is committed here and becomes public with this repository, which is a publication decision that stands until the operator revises it. Its licence field records the gap.
+The vault document is the author's own writing from a private Obsidian vault. The operator confirmed its publication in this repository on 2026-08-22 under CC BY 4.0, following the standing rule that all own text carries CC BY 4.0 and all own code MIT. The `metadata` block of its Markdown representation keeps the state at ingest; this paragraph is the licence statement.
 
 ## Conversion
 
