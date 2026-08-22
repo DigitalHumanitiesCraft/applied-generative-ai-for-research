@@ -30,7 +30,7 @@ Read in this order: `knowledge/index.md` (terminology), `knowledge/state.md` (wh
 
 ## Harness block (exchangeable)
 
-This block is specific to Claude Code and may be replaced for another harness. For Claude Code the three skills `ingest-source`, `distill-source` and `build-assertions` live under `.claude/skills/` and route to the corresponding sections of `knowledge/operations.md`, which stays the single place the rules are written down. The project page generator `tools/build_docs.py` has no subject in this instance, because the template's `docs/` was removed at instantiation; the reading-view lane decides what `docs/` will hold.
+This block is specific to Claude Code and may be replaced for another harness. For Claude Code the three skills `ingest-source`, `distill-source` and `build-assertions` live under `.claude/skills/` and route to the corresponding sections of `knowledge/operations.md`, which stays the single place the rules are written down. The project page generator `tools/build_docs.py` renders both language routes into `docs/`, so run it after a chapter milestone and hold to `knowledge/design.md`, which is binding for the reading view.
 
 - Commit at milestones with concise English imperative messages; stage explicit paths.
 - Run the vault's own check and build tools and the test suite unasked: `python tools/validate.py .`, `python tools/inventory.py . --write`, `python -m pytest tests`, `ruff check .`.

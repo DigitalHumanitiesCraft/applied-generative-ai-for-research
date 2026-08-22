@@ -14,7 +14,7 @@ The manuscript runs to an introduction, six parts with twenty-four chapters, and
 
 ## Reading view
 
-Both language routes are published as a static reading view generated into `docs/` by `python tools/build_docs.py --date <ISO date>`, at https://digitalhumanitiescraft.github.io/applied-generative-ai-for-research/.
+Both language routes are published as a static reading view generated into `docs/` by `python tools/build_docs.py --date <ISO date>`, at https://dhcraft.org/applied-generative-ai-for-research/.
 
 ## The vault layers
 
