@@ -63,3 +63,14 @@ The following rules bind every chapter.
 - 2026-08-22: The controlled topic set is the six parts of the manuscript.
 - 2026-08-22: `data` stays an inactive source type until a source enters that is anchored by computation.
 - 2026-08-22: Licences are split, CC BY 4.0 for manuscript text and documentation, MIT for code and tooling.
+- 2026-08-22: The reading view is a generated static site under `docs/`, produced by `tools/build_docs.py`; the section below holds the decision.
+
+## Reading view
+
+GitHub Pages serves one folder, and the manuscript lives in two others. A deterministic generator therefore renders `40_output/en/*.md` and `40_output/de/*.md` together with the navigation into `docs/` as static HTML, and the result is committed and re-run at milestones. Publishing the Markdown for a client-side renderer was rejected, because a page that assembles the book in the browser makes the published text depend on a script and stops resolving a passage anchor without one. A build step in continuous integration was rejected as well, because the repository has no build regime and a committed `docs/` keeps the published state readable in the same diff as the manuscript that produced it.
+
+The generator is `tools/build_docs.py`, the page generator the template shipped, rewritten around the chapter as its subject and keeping the Markdown converter it already carried. It writes `docs/index.html` with the book title and the part and chapter navigation of both routes, one page per chapter at `docs/en/<slug>.html` and `docs/de/<slug>.html`, and `docs/.nojekyll`. Its test is `tests/test_build_docs.py`, which renders a skeleton chapter and a drafted chapter in both languages and checks the language switch, the writing-state badge, the heading order, the block anchor and the footnote.
+
+Four properties are binding for the output. The pages are static HTML with no external dependency, so nothing is fetched from a third-party host at read time. The text is readable with JavaScript switched off, and the script does no more than remember the language route and offer a filter on the landing page. The Markdown conversion uses the standard library and the converter inside the generator, so no third-party package entered `pyproject.toml`. A block ID in the chapter text becomes the element id of the passage it closes, so a later provenance link into a chapter passage resolves in the published page.
+
+The stylesheet, the script and the brand assets under `docs/assets/` are hand-maintained and are never written by a run, so a rebuild cannot lose them. The design of the surface is described in [[knowledge/design]]. The published address is `https://digitalhumanitiescraft.github.io/applied-generative-ai-for-research/`; enabling Pages on the `docs/` folder is a repository setting and belongs to the operator.

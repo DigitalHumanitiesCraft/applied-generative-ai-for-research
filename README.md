@@ -12,6 +12,10 @@ English is the leading language. German is a complete parallel version of the ma
 
 The manuscript runs to an introduction, six parts with twenty-four chapters, and a conclusion. The canonical outline is `knowledge/outline.md`; the current writing state per chapter is in the chapter register of `knowledge/state.md`.
 
+## Reading view
+
+Both language routes are published as a static reading view generated into `docs/` by `python tools/build_docs.py --date <ISO date>`, at https://digitalhumanitiescraft.github.io/applied-generative-ai-for-research/.
+
 ## The vault layers
 
 The production chain runs `00_sources → 10_markdown → 20_distillates → 30_assertions → 40_output`, and each layer is checkable on its own. Anchors are minted only at the layer they belong to, and each layer references only the layer directly beneath it.

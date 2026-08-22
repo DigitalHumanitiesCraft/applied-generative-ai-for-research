@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Context Engineering und pragmatische Distillation. Applied Generative AI for Research</title>
+<meta name="description" content="II. Vom Prompting zu Grounded Knowledge. Context Engineering und pragmatische Distillation.">
+<link rel="icon" type="image/png" href="../assets/favicon-32.png">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<a class="skip-link" href="#text">Zum Text springen</a>
+<header class="site-header">
+<div class="shell">
+<a class="site-title" href="../index.html">Applied Generative AI for Research</a>
+<nav class="header-nav" aria-label="Sprache">
+<a class="header-link" href="../index.html">Inhalt</a>
+<a class="route-switch" href="../en/05-context-engineering-and-pragmatic-distillation.html" hreflang="en" lang="en" data-lang="en" title="Dieses Kapitel auf Englisch lesen">English</a>
+</nav>
+</div>
+</header>
+<main class="shell" id="text">
+<article class="chapter" lang="de">
+<p class="chapter-part">II. Vom Prompting zu Grounded Knowledge</p>
+<h1>Context Engineering und pragmatische Distillation</h1>
+<p class="chapter-meta"><span class="chapter-number">Kapitel 5</span><span class="status" data-status="skeleton">Skelett</span></p>
+<p>Context Engineering concerns the selection, construction, organisation, and maintenance of information made available to a model during a task or workflow. The chapter distinguishes transient prompts from wider context architectures. It examines how context can be retrieved, generated, compressed, refreshed, ordered, and separated according to its function. It also addresses the limitations of nominally large context windows: the presence of information in a context does not ensure that the model will use it consistently or appropriately. Central topics include:</p><ul><li>prompts versus context;</li><li>context windows;</li><li>task-relative relevance;</li><li>context saturation and degradation;</li><li>long-context limitations;</li><li>retrieval and selective inclusion;</li><li>persistent and transient context;</li><li>generated context;</li><li>context architectures;</li><li>context refresh and revision.</li></ul><p>The chapter develops <strong>Distillation</strong> as a form of pragmatic modelling rather than simple compression. A distilled representation retains the distinctions required for a particular task while leaving the full source, dataset, or formal model intact. This is expressed through a central arrangement: The model reads about the data and writes code that reads the data. The complete research data remain the evidential and computational basis. The model receives a task-specific description of their structure, semantics, uncertainty, exceptions, and relevance. Generated code then processes the complete data outside the model’s context.</p>
+</article>
+<nav class="pager" aria-label="Kapitel">
+<a class="pager-previous" rel="prev" href="04-prompting-and-prompt-engineering.html"><span class="pager-label">Zurück</span><span>Prompting und Prompt Engineering</span></a><a class="pager-next" rel="next" href="06-knowledge-engineering-for-generative-research.html"><span class="pager-label">Weiter</span><span>Knowledge Engineering für generative Forschung</span></a>
+</nav>
+</main>
+<footer class="site-footer">
+<div class="shell">
+<a class="colophon-mark" href="https://dhcraft.org">
+<img src="../assets/dhcraft-logo-watercolor.png" alt="Digital Humanities Craft" width="1600" height="1203">
+</a>
+<p class="colophon-note">Erzeugt aus dem Manuskript des Repositoriums Applied Generative AI for Research, Stand 2026-08-22.
+<a href="https://github.com/DigitalHumanitiesCraft/applied-generative-ai-for-research">Repository</a>.</p>
+<p class="colophon-note">Manuskripttext CC BY 4.0, Code MIT.</p>
+</div>
+</footer>
+<script src="../assets/app.js" defer></script>
+</body>
+</html>
