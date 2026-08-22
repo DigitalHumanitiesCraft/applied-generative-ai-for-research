@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using these metadata."
+type: software
+title: "Applied Generative AI for Research"
+abstract: "Repository of the bilingual book manuscript Applied Generative AI for Research. Knowledge, Context, Agents, and Verifiable Research Artefacts, written inside a Grounded Vault instance in which every substantive sentence resolves through machine-checkable anchors to a passage in a registered source."
+authors:
+  - family-names: Pollin
+    given-names: Christopher
+    affiliation: "Digital Humanities Craft OG"
+    orcid: "https://orcid.org/0000-0002-4879-129X"
+repository-code: "https://github.com/DigitalHumanitiesCraft/applied-generative-ai-for-research"
+keywords:
+  - agentic-engineering
+  - context-engineering
+  - digital-humanities
+  - generative-ai
+  - grounded-vault
+  - knowledge-engineering
+  - promptotyping
+  - provenance
+license: CC-BY-4.0
+license-url: "https://github.com/DigitalHumanitiesCraft/applied-generative-ai-for-research/blob/main/LICENSE"
+preferred-citation:
+  type: book
+  title: "Applied Generative AI for Research. Knowledge, Context, Agents, and Verifiable Research Artefacts"
+  status: in-preparation
+  year: 2026
+  authors:
+    - family-names: Pollin
+      given-names: Christopher
+      affiliation: "Digital Humanities Craft OG"
+      orcid: "https://orcid.org/0000-0002-4879-129X"

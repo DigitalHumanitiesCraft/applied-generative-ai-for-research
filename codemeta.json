@@ -1,0 +1,36 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Applied Generative AI for Research",
+  "description": "Repository of the bilingual book manuscript Applied Generative AI for Research. Knowledge, Context, Agents, and Verifiable Research Artefacts, written inside a Grounded Vault instance in which every substantive sentence resolves through machine-checkable anchors to a passage in a registered source.",
+  "codeRepository": "https://github.com/DigitalHumanitiesCraft/applied-generative-ai-for-research",
+  "author": [
+    {
+      "@type": "Person",
+      "id": "https://orcid.org/0000-0002-4879-129X",
+      "givenName": "Christopher",
+      "familyName": "Pollin",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Digital Humanities Craft OG"
+      },
+      "sameAs": "https://github.com/chpollin"
+    }
+  ],
+  "programmingLanguage": "Python",
+  "inLanguage": ["en", "de"],
+  "keywords": [
+    "agentic-engineering",
+    "context-engineering",
+    "digital-humanities",
+    "generative-ai",
+    "grounded-vault",
+    "knowledge-engineering",
+    "promptotyping",
+    "provenance"
+  ],
+  "isBasedOn": "https://github.com/DigitalHumanitiesCraft/grounded-vault",
+  "license": "https://spdx.org/licenses/CC-BY-4.0",
+  "dateCreated": "2026-08-22",
+  "dateModified": "2026-08-22"
+}
