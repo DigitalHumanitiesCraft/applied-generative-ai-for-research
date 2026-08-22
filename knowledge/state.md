@@ -24,11 +24,12 @@ One row per source. Processing status: `new` → `ingested` → `distilled`. Thi
 <!-- inventory:begin -->
 | Source | Type | Channel | Markdown representation | Distillate | Status |
 |---|---|---|---|---|---|
-| Knowledge, Context and Agentic Engineering for Knowledge Work. Full Lecture Notes, English | document | handover | [[10_markdown/documents/lecture-notes-en]] | — | ingested |
-| Knowledge, Context and Agentic Engineering for Knowledge Work. Full Lecture Notes, German | document | handover | [[10_markdown/documents/lecture-notes-de]] | — | ingested |
-| Knowledge, Context and Agentic Engineering for Knowledge Work. Full Slide Deck, slide-text export | document | handover | [[10_markdown/documents/slide-deck]] | — | ingested |
-| Promptotyping. Translating Research Data into Research Artefacts through Context Engineering and Agentic Engineering | document | handover | [[10_markdown/documents/promptotyping-paper]] | — | ingested |
-| Vault als materialisiertes Wissensmodell | document | handover | [[10_markdown/documents/vault-as-materialised-knowledge-model]] | — | ingested |
+| Knowledge, Context and Agentic Engineering for Knowledge Work. Full Lecture Notes, English | document | handover | [[10_markdown/documents/lecture-notes-en]] | [[20_distillates/documents/lecture-notes-en]] | distilled |
+| Knowledge, Context and Agentic Engineering for Knowledge Work. Full Lecture Notes, German | document | handover | [[10_markdown/documents/lecture-notes-de]] | [[20_distillates/documents/lecture-notes-de]] | distilled |
+| Knowledge, Context and Agentic Engineering for Knowledge Work. Full Slide Deck, slide-text export | document | handover | [[10_markdown/documents/slide-deck]] | [[20_distillates/documents/slide-deck]] | distilled |
+| Promptotyping Document Templates | document | handover | [[10_markdown/documents/promptotyping-document-templates]] | [[20_distillates/documents/promptotyping-document-templates]] | distilled |
+| Promptotyping. Translating Research Data into Research Artefacts through Context Engineering and Agentic Engineering | document | handover | [[10_markdown/documents/promptotyping-paper]] | [[20_distillates/documents/promptotyping-paper]] | distilled |
+| Vault als materialisiertes Wissensmodell | document | handover | [[10_markdown/documents/vault-as-materialised-knowledge-model]] | [[20_distillates/documents/vault-as-materialised-knowledge-model]] | distilled |
 <!-- inventory:end -->
 
 ## Chapter register
@@ -48,21 +49,21 @@ One row per chapter of the output, with the English file and its German counterp
 | 8. From Models to Agents (III) | [[40_output/en/08-from-models-to-agents]] | [[40_output/de/08-from-models-to-agents]] | skeleton | German title is a working title |
 | 9. Agentic Engineering as Work Organisation (III) | [[40_output/en/09-agentic-engineering-as-work-organisation]] | [[40_output/de/09-agentic-engineering-as-work-organisation]] | skeleton | German title is a working title |
 | 10. Failure, Drift, and Verification Debt (III) | [[40_output/en/10-failure-drift-and-verification-debt]] | [[40_output/de/10-failure-drift-and-verification-debt]] | skeleton | German title is a working title |
-| 11. Promptotyping: Translating Research Data into Research Artefacts through Context Engineering and Agentic Engineering (IV) | [[40_output/en/11-promptotyping]] | [[40_output/de/11-promptotyping]] | skeleton | German title is a working title |
-| 12. Preconditions, Scope, and Relation to Research Software Engineering (IV) | [[40_output/en/12-preconditions-scope-and-relation-to-research-software-engineering]] | [[40_output/de/12-preconditions-scope-and-relation-to-research-software-engineering]] | skeleton | German title is a working title |
-| 13. Preparation and Exploration (IV) | [[40_output/en/13-preparation-and-exploration]] | [[40_output/de/13-preparation-and-exploration]] | skeleton | German title is a working title |
-| 14. Distillation and Promptotyping Documents (IV) | [[40_output/en/14-distillation-and-promptotyping-documents]] | [[40_output/de/14-distillation-and-promptotyping-documents]] | skeleton | German title is a working title |
-| 15. Agentic Implementation and Return Paths (IV) | [[40_output/en/15-agentic-implementation-and-return-paths]] | [[40_output/de/15-agentic-implementation-and-return-paths]] | skeleton | German title is a working title |
-| 16. Verification, the Critical Expert, and Distributed Authority (IV) | [[40_output/en/16-verification-the-critical-expert-and-distributed-authority]] | [[40_output/de/16-verification-the-critical-expert-and-distributed-authority]] | skeleton | German title is a working title |
-| 17. Research Artefacts as Scholarly Arguments (V) | [[40_output/en/17-research-artefacts-as-scholarly-arguments]] | [[40_output/de/17-research-artefacts-as-scholarly-arguments]] | skeleton | German title is a working title |
-| 18. An Epistemic Typology of Research Interfaces (V) | [[40_output/en/18-an-epistemic-typology-of-research-interfaces]] | [[40_output/de/18-an-epistemic-typology-of-research-interfaces]] | skeleton | German title is a working title |
-| 19. Comparative Project Cases (V) | [[40_output/en/19-comparative-project-cases]] | [[40_output/de/19-comparative-project-cases]] | skeleton | German title is a working title |
-| 20. Teaching, Transfer, and Asymmetric Amplification (V) | [[40_output/en/20-teaching-transfer-and-asymmetric-amplification]] | [[40_output/de/20-teaching-transfer-and-asymmetric-amplification]] | skeleton | German title is a working title |
-| 21. A Complete Worked Example (VI) | [[40_output/en/21-a-complete-worked-example]] | [[40_output/de/21-a-complete-worked-example]] | skeleton | German title is a working title |
-| 22. From Promptotype to Research Software Engineering (VI) | [[40_output/en/22-from-promptotype-to-research-software-engineering]] | [[40_output/de/22-from-promptotype-to-research-software-engineering]] | skeleton | German title is a working title |
-| 23. Reconstructability, Sustainability, and Proprietary Dependence (VI) | [[40_output/en/23-reconstructability-sustainability-and-proprietary-dependence]] | [[40_output/de/23-reconstructability-sustainability-and-proprietary-dependence]] | skeleton | German title is a working title |
-| 24. Amplification, Responsibility, and the Limits of Externalisation (VI) | [[40_output/en/24-amplification-responsibility-and-the-limits-of-externalisation]] | [[40_output/de/24-amplification-responsibility-and-the-limits-of-externalisation]] | skeleton | German title is a working title |
-| Grounded Generative Research (Frame) | [[40_output/en/25-grounded-generative-research]] | [[40_output/de/25-grounded-generative-research]] | skeleton | German title is a working title |
+| 11. Promptotyping: Translating Research Data into Research Artefacts through Context Engineering and Agentic Engineering (IV) | [[40_output/en/11-promptotyping]] | [[40_output/de/11-promptotyping]] | drafted | German title is a working title |
+| 12. Preconditions, Scope, and Relation to Research Software Engineering (IV) | [[40_output/en/12-preconditions-scope-and-relation-to-research-software-engineering]] | [[40_output/de/12-preconditions-scope-and-relation-to-research-software-engineering]] | drafted | German title is a working title |
+| 13. Preparation and Exploration (IV) | [[40_output/en/13-preparation-and-exploration]] | [[40_output/de/13-preparation-and-exploration]] | drafted | German title is a working title |
+| 14. Distillation and Promptotyping Documents (IV) | [[40_output/en/14-distillation-and-promptotyping-documents]] | [[40_output/de/14-distillation-and-promptotyping-documents]] | drafted | German title is a working title |
+| 15. Agentic Implementation and Return Paths (IV) | [[40_output/en/15-agentic-implementation-and-return-paths]] | [[40_output/de/15-agentic-implementation-and-return-paths]] | drafted | German title is a working title |
+| 16. Verification, the Critical Expert, and Distributed Authority (IV) | [[40_output/en/16-verification-the-critical-expert-and-distributed-authority]] | [[40_output/de/16-verification-the-critical-expert-and-distributed-authority]] | drafted | German title is a working title |
+| 17. Research Artefacts as Scholarly Arguments (V) | [[40_output/en/17-research-artefacts-as-scholarly-arguments]] | [[40_output/de/17-research-artefacts-as-scholarly-arguments]] | drafted | German title is a working title |
+| 18. An Epistemic Typology of Research Interfaces (V) | [[40_output/en/18-an-epistemic-typology-of-research-interfaces]] | [[40_output/de/18-an-epistemic-typology-of-research-interfaces]] | drafted | German title is a working title |
+| 19. Comparative Project Cases (V) | [[40_output/en/19-comparative-project-cases]] | [[40_output/de/19-comparative-project-cases]] | drafted | German title is a working title |
+| 20. Teaching, Transfer, and Asymmetric Amplification (V) | [[40_output/en/20-teaching-transfer-and-asymmetric-amplification]] | [[40_output/de/20-teaching-transfer-and-asymmetric-amplification]] | drafted | German title is a working title |
+| 21. A Complete Worked Example (VI) | [[40_output/en/21-a-complete-worked-example]] | [[40_output/de/21-a-complete-worked-example]] | drafted | German title is a working title |
+| 22. From Promptotype to Research Software Engineering (VI) | [[40_output/en/22-from-promptotype-to-research-software-engineering]] | [[40_output/de/22-from-promptotype-to-research-software-engineering]] | drafted | German title is a working title |
+| 23. Reconstructability, Sustainability, and Proprietary Dependence (VI) | [[40_output/en/23-reconstructability-sustainability-and-proprietary-dependence]] | [[40_output/de/23-reconstructability-sustainability-and-proprietary-dependence]] | drafted | German title is a working title |
+| 24. Amplification, Responsibility, and the Limits of Externalisation (VI) | [[40_output/en/24-amplification-responsibility-and-the-limits-of-externalisation]] | [[40_output/de/24-amplification-responsibility-and-the-limits-of-externalisation]] | drafted | German title is a working title |
+| Grounded Generative Research (Frame) | [[40_output/en/25-grounded-generative-research]] | [[40_output/de/25-grounded-generative-research]] | drafted | German title is a working title |
 
 ## Open work
 
@@ -70,5 +71,4 @@ One row per chapter of the output, with the English file and its German counterp
 
 - Run the first vertical production pass on one source of Part II, from its distillate through one assertion to one written paragraph, before a second source is distilled.
 - Fix the cross-family reviewer for the machine review contract.
-- Decide whether the Promptotyping document templates enter as one source or as eighteen.
 - Decide which dataset carries the worked example of Part VI.
