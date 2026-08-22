@@ -3,7 +3,7 @@ type: chapter
 status: grounded
 writing-status: drafted
 checked: {}
-assertions: ["[[30_assertions/a-knowledge-base-is-tested-by-bounded-continuation-tasks]]", "[[30_assertions/a-public-deployment-is-the-latest-state-of-a-development-history]]", "[[30_assertions/an-artefact-alone-does-not-witness-its-own-history]]", "[[30_assertions/comparative-evaluation-asks-when-the-arrangement-adds-value]]", "[[30_assertions/data-governance-bounds-what-may-be-processed]]", "[[30_assertions/independent-transfer-is-evaluated-through-sustained-work]]", "[[30_assertions/promptotype-evaluation-separates-conformity-adequacy-and-purpose]]", "[[30_assertions/proprietary-dependence-limits-durability]]", "[[30_assertions/the-accepted-state-must-remain-identifiable]]", "[[30_assertions/the-journal-is-a-curated-provenance-index]]", "[[30_assertions/the-method-was-consolidated-from-one-practice]]", "[[30_assertions/the-provenance-of-a-generated-process-is-documentary]]", "[[30_assertions/the-sufficiency-of-distillation-is-practical]]", "[[30_assertions/transferability-differs-from-exact-reproduction]]"]
+assertions: ["[[30_assertions/a-knowledge-base-is-tested-by-bounded-continuation-tasks]]", "[[30_assertions/a-public-deployment-is-the-latest-state-of-a-development-history]]", "[[30_assertions/an-artefact-alone-does-not-witness-its-own-history]]", "[[30_assertions/comparative-evaluation-asks-when-the-arrangement-adds-value]]", "[[30_assertions/data-governance-bounds-what-may-be-processed]]", "[[30_assertions/exploration-scales-through-computational-profiling]]", "[[30_assertions/independent-transfer-is-evaluated-through-sustained-work]]", "[[30_assertions/promptotype-evaluation-separates-conformity-adequacy-and-purpose]]", "[[30_assertions/proprietary-dependence-limits-durability]]", "[[30_assertions/the-accepted-state-must-remain-identifiable]]", "[[30_assertions/the-journal-is-a-curated-provenance-index]]", "[[30_assertions/the-method-was-consolidated-from-one-practice]]", "[[30_assertions/the-provenance-of-a-generated-process-is-documentary]]", "[[30_assertions/the-sufficiency-of-distillation-is-practical]]", "[[30_assertions/transferability-differs-from-exact-reproduction]]"]
 posits: 2
 lang: en
 part: "VI. Worked Example, Boundaries, and Implications"
@@ -22,7 +22,7 @@ updated: 2026-08-22
 
 Generative systems are stochastic and often proprietary, and recording prompts, data, and model names does not guarantee that a later run produces the same output. Model and harness changes may alter system behaviour even where the project knowledge and the research data stay stable, and the documented practice depends substantially on paid access to proprietary frontier models and capable agentic tools, which introduces direct costs, reduces control over system changes, and sits in tension with the inspectability, reproducibility, and durability sought for research software and data.[^1] The method acknowledges this in its own definition of an iteration, since a renewed implementation using another model, harness, or project state counts as a new iteration rather than as a reproduction of the earlier one.[^2]
 
-The consequence is not that reproducibility becomes irrelevant. Deterministic parts of a workflow stay reproducible and should be kept that way, since the complete dataset is processed by inspectable operations while the generative component works on a distilled account and selected examples. What changes is which property can be promised for the whole process.
+The consequence is not that reproducibility becomes irrelevant. Deterministic parts of a workflow stay reproducible and should be kept that way, since the complete dataset is processed by inspectable operations while the generative component works on a distilled account and selected examples.[^17] What changes is which property can be promised for the whole process.
 
 ## Reconstructability
 
@@ -68,3 +68,4 @@ The same reasoning bounds what preservation buys. The documented practice is sub
 [^14]: Grounded in [[30_assertions/promptotype-evaluation-separates-conformity-adequacy-and-purpose]].
 [^15]: Grounded in [[30_assertions/the-method-was-consolidated-from-one-practice]].
 [^16]: Grounded in [[30_assertions/comparative-evaluation-asks-when-the-arrangement-adds-value]].
+[^17]: Grounded in [[30_assertions/exploration-scales-through-computational-profiling]].
