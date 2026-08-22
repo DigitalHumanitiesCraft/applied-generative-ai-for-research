@@ -58,7 +58,7 @@ Part I treats generative models as research systems and asks what a model is, wh
 ## Gaps
 
 This chapter draws on the teaching material of the project and on the slide deck, and three things it needs lie elsewhere.[^11]
-- The Grounded Vault is introduced here by its function and characterised fully in chapter 7, where its source-bound and governed conditions need material the feeding sources of this lane do not carry.
+- The Grounded Vault is introduced here by its function and characterised fully in chapter 7. Its governed condition rests in the sources on a demand for provenance rather than on an architecture that enforces one, and the anchor chain this book uses is the vault's own extension of what the sources describe.
 - The characterisation of Promptotyping is deliberately thin, because the paper that defines the method belongs to the other manuscript lane and its distillate is the anchor for Part IV.
 - The claim that research data are already selective representations, which the outline places in this introduction, is developed in chapter 3 from the English lecture notes and would be stronger with a source from the research-data literature entered as a publication record.
 
@@ -76,4 +76,4 @@ This chapter draws on the teaching material of the project and on the slide deck
 [^8]: Grounded in [[30_assertions/the-prompt-is-one-component-of-the-loop]].
 [^9]: Grounded in [[30_assertions/the-translation-into-software-is-not-neutral]].
 [^10]: Grounded in [[30_assertions/frontier-models-amplify-asymmetrically]].
-[^11]: Posit: the gap list is the author's judgment of what this chapter cannot yet support. Open evidence question: whether the vault document withheld from this run and the Promptotyping paper distillate close the first two gaps or open further ones.
+[^11]: Posit: the gap list is the author's judgment of what this chapter cannot yet support. Open evidence question: whether the Promptotyping paper distillate of the other manuscript lane closes the second gap or opens further ones.

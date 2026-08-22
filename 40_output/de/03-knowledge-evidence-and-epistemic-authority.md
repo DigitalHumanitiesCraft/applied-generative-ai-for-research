@@ -57,7 +57,7 @@ Möglich wird all das durch eine Anordnung und nicht durch eine Komponente. Date
 Drei der Risiken, die die Gliederung diesem Kapitel zuweist, lassen sich nicht auf der Ebene behandeln, die sie unterstellt.[^18]
 - Konfabulation erscheint in den Quellen als aufgezählte Eigenschaft ohne eine Definition, die sie vom gewöhnlichen Fehler trennt; das Kapitel nennt deshalb die probabilistische Eigenschaft und die ungestützte Behauptung und vermeidet den Begriff als Fachterminus.
 - Unkalibrierte Konfidenz wird hier über die Assertion zur sozialen Flüssigkeit behandelt, die die Art einer Antwort betrifft; eine Aussage über Kalibrierung im strengen Sinn verlangt eine Quelle, die geäußerte Sicherheit gegen Trefferquote misst.
-- Konventionelle, aber unangemessene Repräsentationen, von der Gliederung genannt, haben in diesen Quellen keinen Anker. Das in diesem Durchgang zurückgehaltene Vault-Dokument wäre ein Kandidat, die vergleichenden Fälle in Teil V der andere; bis dahin bleibt das Thema bei Kapitel 17.
+- Konventionelle, aber unangemessene Repräsentationen, von der Gliederung genannt, haben in diesen Quellen keinen Anker. Das Vault-Dokument behandelt die Struktur eines Bestandes als bedeutungstragend, ohne konventionelle Repräsentationen des Forschungsmaterials zu berühren, sodass das Thema bei den vergleichenden Fällen in Kapitel 17 bleibt.
 
 [^1]: Grounded in [[30_assertions/parametric-knowledge-carries-no-provenance]].
 [^2]: Grounded in [[30_assertions/the-model-boundary-is-not-the-system-boundary]].
@@ -76,4 +76,4 @@ Drei der Risiken, die die Gliederung diesem Kapitel zuweist, lassen sich nicht a
 [^15]: Grounded in [[30_assertions/the-critical-expert-designs-the-conditions]].
 [^16]: Grounded in [[30_assertions/independent-review-extends-coverage-not-authority]].
 [^17]: Grounded in [[30_assertions/the-epistemic-infrastructure-conditions-inspection]].
-[^18]: Posit: die Lückenliste hält fest, was dieses Kapitel aus seinen eigenen Quellen nicht tragen kann. Open evidence question: ob eine Operator-Entscheidung zur Freigabe des zurückgehaltenen Vault-Dokuments ändert, was das Kapitel über konventionelle Repräsentationen sagen kann.
+[^18]: Posit: die Lückenliste hält fest, was dieses Kapitel aus seinen eigenen Quellen nicht tragen kann. Open evidence question: welche Publikation zur Kalibrierung es dem Kapitel erlauben würde, ein gemessenes Verhältnis zwischen geäußerter Sicherheit und Trefferquote zu nennen.

@@ -58,7 +58,7 @@ Teil I behandelt generative Modelle als Forschungssysteme und fragt, was ein Mod
 ## Lücken
 
 Dieses Kapitel stützt sich auf das Lehrmaterial des Projekts und auf den Foliensatz, und drei Dinge, die es braucht, liegen anderswo.[^11]
-- Der Grounded Vault wird hier über seine Funktion eingeführt und in Kapitel 7 vollständig bestimmt, wo seine quellengebundenen und governance-bezogenen Bedingungen Material verlangen, das die Quellen dieser Arbeitslinie nicht mitführen.
+- Der Grounded Vault wird hier über seine Funktion eingeführt und in Kapitel 7 vollständig bestimmt. Seine Governance-Bedingung ruht in den Quellen auf einer Forderung nach Provenienz und nicht auf einer Architektur, die sie durchsetzt, und die Ankerkette dieses Buches ist die eigene Erweiterung dessen, was die Quellen beschreiben.
 - Die Charakterisierung von Promptotyping bleibt bewusst dünn, weil das Paper, das die Methode definiert, zur anderen Manuskriptlinie gehört und sein Destillat der Anker für Teil IV ist.
 - Die Aussage, dass Forschungsdaten bereits selektive Repräsentationen sind, entfaltet Kapitel 3 aus den englischen Lecture Notes; sie würde tragfähiger mit einer Quelle aus der Forschungsdatenliteratur, die als eigener Publikationsdatensatz aufgenommen wird.
 
@@ -76,4 +76,4 @@ Dieses Kapitel stützt sich auf das Lehrmaterial des Projekts und auf den Folien
 [^8]: Grounded in [[30_assertions/the-prompt-is-one-component-of-the-loop]].
 [^9]: Grounded in [[30_assertions/the-translation-into-software-is-not-neutral]].
 [^10]: Grounded in [[30_assertions/frontier-models-amplify-asymmetrically]].
-[^11]: Posit: die Lückenliste ist das Urteil der Autorenschaft darüber, was dieses Kapitel noch nicht tragen kann. Open evidence question: ob das in diesem Durchgang zurückgehaltene Vault-Dokument und das Destillat des Promptotyping-Papers die ersten beiden Lücken schließen oder weitere öffnen.
+[^11]: Posit: die Lückenliste ist das Urteil der Autorenschaft darüber, was dieses Kapitel noch nicht tragen kann. Open evidence question: ob das Destillat des Promptotyping-Papers aus der anderen Manuskriptlinie die zweite Lücke schließt oder weitere öffnet.

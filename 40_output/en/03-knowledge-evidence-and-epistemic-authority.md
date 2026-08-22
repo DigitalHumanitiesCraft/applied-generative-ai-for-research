@@ -57,7 +57,7 @@ What makes any of this possible is an arrangement rather than a component. Files
 Three of the risks the outline names for this chapter cannot be treated at the level the outline implies.[^18]
 - Confabulation appears in the sources as a listed property without a definition that separates it from ordinary error, so the chapter states the probabilistic and unsupported-claim properties and avoids the term as a technical one.
 - Uncalibrated confidence is treated here through the social-fluency assertion, which is about the manner of an answer, and a claim about calibration in the strict sense needs a source that measures stated confidence against accuracy.
-- Conventional but inappropriate representations, named in the outline, has no anchor in these sources. The vault document withheld from this run would be one candidate, and the comparative cases of Part V are the other; until then the topic stays with chapter 17.
+- Conventional but inappropriate representations, named in the outline, has no anchor in these sources. The vault document treats the structure of a holding as meaning-bearing without addressing conventional representations of research material, so the topic stays with the comparative cases of chapter 17.
 
 [^1]: Grounded in [[30_assertions/parametric-knowledge-carries-no-provenance]].
 [^2]: Grounded in [[30_assertions/the-model-boundary-is-not-the-system-boundary]].
@@ -76,4 +76,4 @@ Three of the risks the outline names for this chapter cannot be treated at the l
 [^15]: Grounded in [[30_assertions/the-critical-expert-designs-the-conditions]].
 [^16]: Grounded in [[30_assertions/independent-review-extends-coverage-not-authority]].
 [^17]: Grounded in [[30_assertions/the-epistemic-infrastructure-conditions-inspection]].
-[^18]: Posit: the gap list records what this chapter cannot support from its own sources. Open evidence question: whether an operator decision to release the withheld vault document changes what the chapter can say about conventional representations.
+[^18]: Posit: the gap list records what this chapter cannot support from its own sources. Open evidence question: which publication on calibration would let the chapter state a measured relation between expressed confidence and accuracy.
