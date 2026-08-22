@@ -61,12 +61,27 @@ Assertions on the progression from prompting through context engineering to know
 - [[30_assertions/not-everything-relevant-enters-the-context]] — the difference between project relevance and task relevance
 - [[30_assertions/the-workspace-is-part-of-the-method]] — why the environment is designed before the first instruction
 - [[30_assertions/requirements-arise-from-data-question-and-practice]] — where a requirement comes from in a research project
+- [[30_assertions/the-structure-of-a-holding-is-meaning-bearing]] — why the shape of a holding is part of what it says
+- [[30_assertions/filing-information-is-modelling-work]] — the reading of maintenance as modelling
+- [[30_assertions/the-knowledge-model-bounds-the-output]] — the dependence of the result on the model behind it
+- [[30_assertions/a-knowledge-document-is-materialised-context-compression]] — the function of the document inside the context layer
+- [[30_assertions/a-knowledge-document-is-transferable-compact-and-retrievable]] — the properties and the register of a single document
+- [[30_assertions/distillation-abstracts-a-principle-from-a-case]] — the movement distillation performs and the test it has to pass
+- [[30_assertions/five-transformations-convert-material-into-units]] — the operations that produce the units of a holding
+- [[30_assertions/atomisation-and-consolidation-run-in-opposite-directions]] — the two directional operations and what they share
+- [[30_assertions/four-design-principles-guide-the-transformations]] — the rules the operations follow and the one that matters most for context
+- [[30_assertions/context-quality-has-four-criteria]] — how a document is judged for use as context
+- [[30_assertions/the-transformations-are-anchored-in-older-disciplines]] — the older disciplines behind the five operations
+- [[30_assertions/provenance-has-a-standard-form-and-a-research-demand]] — where the provenance requirement comes from
+- [[30_assertions/the-five-part-systematics-is-an-own-coinage]] — the status of the five-part scheme and how it is derived
+- [[30_assertions/the-granularity-conflict-between-readers-is-unresolved]] — the open question the dual readership leaves
 
 ## Open questions
 
 - Where do the script, the paper and the vault knowledge document differ in how they define context engineering?
 - Which of the seven conditions of a Grounded Vault are stated in a source, and which are the vault's own synthesis?
-- The feeding artefacts of this lane carry the Project Knowledge Base, the knowledge document and the working context, and they name no source-bound anchor chain, so the source-bound and governed conditions of the Grounded Vault have no anchor here.
-- The sources describe curation and governance as necessary without stating how authority over a knowledge holding is assigned or recorded.
+- The vault document describes a knowledge holding without a source-bound anchor chain, so the way a statement inside a knowledge document is tied back to the passage that supports it stays this vault's own extension.
+- The vault document names the granularity conflict between a model built for human reading and one built for machine context as unresolved and offers no criterion for deciding it per document type.
+- The sources carry the Project Knowledge Base, the knowledge document, the working context and the demand for provenance, and none of them states how authority over a holding is enforced rather than declared, so the governed condition of the Grounded Vault rests on a demand and not on an architecture.
 - The distinction between curated and deterministically generated knowledge, which the outline assigns to chapter 7, appears in none of the three sources of this lane.
 - The sources name formal representations such as controlled vocabularies, schemas and ontologies as neighbouring traditions without saying when a project should reach for one instead of structured prose.
