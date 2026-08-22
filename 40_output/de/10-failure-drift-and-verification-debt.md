@@ -4,7 +4,7 @@ status: grounded
 writing-status: drafted
 checked: {}
 assertions: ["[[30_assertions/acceptance-is-a-purpose-bound-decision]]", "[[30_assertions/agents-produce-evidence-without-authority]]", "[[30_assertions/an-early-error-propagates-along-the-trajectory]]", "[[30_assertions/findings-must-be-written-back]]", "[[30_assertions/formal-conformance-is-not-scholarly-adequacy]]", "[[30_assertions/implementation-tests-the-project-understanding]]", "[[30_assertions/increments-must-stay-inspectable]]", "[[30_assertions/independent-review-extends-coverage-not-authority]]", "[[30_assertions/long-runs-accumulate-noise]]", "[[30_assertions/more-agents-raise-coordination-cost]]", "[[30_assertions/self-revision-is-no-independent-verification]]", "[[30_assertions/the-assessment-vocabulary-has-four-levels]]", "[[30_assertions/the-bottleneck-shifts-from-model-to-context]]", "[[30_assertions/the-interface-can-manufacture-false-certainty]]", "[[30_assertions/the-prompt-is-one-component-of-the-loop]]"]
-posits: 4
+posits: 5
 lang: de
 part: "III. Agentische Forschungsarbeit"
 chapter: 10
@@ -20,7 +20,7 @@ updated: 2026-08-22
 
 ## Fehler, an die Formulierung nicht heranreicht
 
-Die hier behandelten Fehler überstehen bessere Anweisungen. Sie entstehen aus der Länge einer Trajektorie, aus der Anordnung um das Modell herum und aus der Art, wie Ergebnisse angenommen werden, und jeder von ihnen ist eine Eigenschaft des Workflows und nicht eines einzelnen Aufrufs.
+Die hier behandelten Fehler überstehen bessere Anweisungen. Sie entstehen aus der Länge einer Trajektorie, aus der Anordnung um das Modell herum und aus der Art, wie Ergebnisse angenommen werden, und jeder von ihnen ist eine Eigenschaft des Workflows und nicht eines einzelnen Aufrufs.[^0]
 
 Der erste ist die Fortpflanzung. Mit wachsender Aufgabendauer steigt neben der möglichen Leistung die Zahl der Stellen, an denen ein Fehler in spätere Schritte eingeht, und ein Agent, der eine veraltete Richtlinie liest, kann ein unpassendes Muster erzeugen, es transformieren und alles Nachgelagerte an die falsche Struktur anpassen, sodass jeder einzelne Schritt richtig aussieht, während der ursprüngliche Defekt bis ans Ende wandert.[^1] Nichts im Lauf meldet das, weil jede lokale Prüfung besteht.
 
@@ -60,6 +60,7 @@ Vier der Fehlerformen, die die Gliederung aufzählt, haben in den Quellen dieser
 - Das diagnostische Verfahren zur Zuordnung eines Defekts zu einer Ebene steht als Frage und nicht als Methode. Die Dokumenttypologie der anderen Manuskriptlinie trägt ein diagnostisches Raster, das einen Defekt an ein zuständiges Dokument leitet, und Kapitel 15 ist der Ort, an dem beide zusammentreffen.
 - Unautorisierte Klassifikation, von der Gliederung unter den Fehlerformen genannt, ist hier nur über das Interface behandelt, das falsche Eindeutigkeit erzeugt. Ein Fall, in dem eine erzeugte Klassifikation ohne Autorisierung in einen Datenbestand gelangt, gehört nach Teil V.
 
+[^0]: Posit: diese Fehler nach ihrem Ursprung in Trajektorienlänge, Anordnung und Annahme zu gruppieren ist die eigene Klassifikation dieses Buches, und keine Quelle dieser Arbeitslinie ordnet sie so. Open evidence question: ob eine Menge dokumentierter agentischer Fehler in diese drei Gruppen fällt oder weitere verlangt.
 [^1]: Grounded in [[30_assertions/an-early-error-propagates-along-the-trajectory]].
 [^2]: Grounded in [[30_assertions/long-runs-accumulate-noise]].
 [^3]: Grounded in [[30_assertions/the-bottleneck-shifts-from-model-to-context]].

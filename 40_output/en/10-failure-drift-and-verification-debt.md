@@ -4,7 +4,7 @@ status: grounded
 writing-status: drafted
 checked: {}
 assertions: ["[[30_assertions/acceptance-is-a-purpose-bound-decision]]", "[[30_assertions/agents-produce-evidence-without-authority]]", "[[30_assertions/an-early-error-propagates-along-the-trajectory]]", "[[30_assertions/findings-must-be-written-back]]", "[[30_assertions/formal-conformance-is-not-scholarly-adequacy]]", "[[30_assertions/implementation-tests-the-project-understanding]]", "[[30_assertions/increments-must-stay-inspectable]]", "[[30_assertions/independent-review-extends-coverage-not-authority]]", "[[30_assertions/long-runs-accumulate-noise]]", "[[30_assertions/more-agents-raise-coordination-cost]]", "[[30_assertions/self-revision-is-no-independent-verification]]", "[[30_assertions/the-assessment-vocabulary-has-four-levels]]", "[[30_assertions/the-bottleneck-shifts-from-model-to-context]]", "[[30_assertions/the-interface-can-manufacture-false-certainty]]", "[[30_assertions/the-prompt-is-one-component-of-the-loop]]"]
-posits: 4
+posits: 5
 lang: en
 part: "III. Agentic Research Work"
 chapter: 10
@@ -20,7 +20,7 @@ updated: 2026-08-22
 
 ## Failures that wording cannot reach
 
-The failures treated here survive better instructions. They arise from the length of a trajectory, from the arrangement around the model and from the way results are accepted, and each of them is a property of the workflow rather than of a single call.
+The failures treated here survive better instructions. They arise from the length of a trajectory, from the arrangement around the model and from the way results are accepted, and each of them is a property of the workflow rather than of a single call.[^0]
 
 The first is propagation. With growing task duration the number of places at which an error can enter later steps rises alongside the possible output, and an agent that reads an outdated guideline can produce an unsuitable pattern, transform it and adapt everything downstream to the wrong structure, so each single step looks correct while the original defect travels to the end.[^1] Nothing in the run reports this, because every local check passes.
 
@@ -60,6 +60,7 @@ Four of the failure modes the outline lists have no anchor in the sources of thi
 - The diagnostic procedure for assigning a defect to a layer is stated as a question and not as a method. The document typology of the other manuscript lane carries a diagnostic grid that routes a defect to a responsible document, and chapter 15 is where the two meet.
 - Unauthorised classification, which the outline lists among the failure modes, is treated here only through the interface that manufactures false certainty. A case in which a generated classification enters a dataset without authorisation belongs to Part V.
 
+[^0]: Posit: grouping these failures by their origin in trajectory length, arrangement and acceptance is this book's own classification, and no source of this lane orders them that way. Open evidence question: whether a set of documented agentic failures falls into these three groups or requires further ones.
 [^1]: Grounded in [[30_assertions/an-early-error-propagates-along-the-trajectory]].
 [^2]: Grounded in [[30_assertions/long-runs-accumulate-noise]].
 [^3]: Grounded in [[30_assertions/the-bottleneck-shifts-from-model-to-context]].
