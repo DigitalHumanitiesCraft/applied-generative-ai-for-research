@@ -42,7 +42,7 @@ import yaml
 BOOK_TITLE = "Applied Generative AI for Research"
 BOOK_SUBTITLE = "Knowledge, Context, Agents, and Verifiable Research Artefacts"
 
-SITE_URL = "https://digitalhumanitiescraft.github.io/applied-generative-ai-for-research/"
+SITE_URL = "https://dhcraft.org/applied-generative-ai-for-research/"
 REPOSITORY_URL = (
     "https://github.com/DigitalHumanitiesCraft/applied-generative-ai-for-research"
 )
