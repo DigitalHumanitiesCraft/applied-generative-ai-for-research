@@ -28,6 +28,7 @@ The register carries texts under the source type `document`, because the project
 | Full Lecture Notes, German | `00_sources/lecture-notes-de.md`, `10_markdown/documents/lecture-notes-de.md` | `script/full-lecture-notes-de.md` | DigitalHumanitiesCraft/knowledge-context-agentic-engineering | 5c0e9d66bc9a169a0c184742bfe247fc232c7439 | 2026-08-22 |
 | Full Slide Deck, slide-text export | `00_sources/slide-deck.md`, `10_markdown/documents/slide-deck.md` | `slides/full-slide-deck.md` | DigitalHumanitiesCraft/knowledge-context-agentic-engineering | 5c0e9d66bc9a169a0c184742bfe247fc232c7439 | 2026-08-22 |
 | Vault als materialisiertes Wissensmodell | `00_sources/vault-as-materialised-knowledge-model.md`, `10_markdown/documents/vault-as-materialised-knowledge-model.md` | `Vault Operations/Theorie/Vault als materialisiertes Wissensmodell.md` | private Obsidian vault of the author, no public remote | 4bb3192228146e4e3db45621e7abf0cb5367f998 | 2026-08-22 |
+| Promptotyping Document Templates | `00_sources/promptotyping-document-templates.md`, `10_markdown/documents/promptotyping-document-templates.md` | `_content/promptotyping-document/` | DigitalHumanitiesCraft/Promptotyping | 6a5cfa46a767a8443908aeecbbf44831f3aea277 | 2026-08-22 |
 
 Both source repositories were clean at the commit named above when the copies were taken, so the file in `00_sources/` is the committed state and not a working-tree variant.
 
@@ -39,10 +40,10 @@ The binding assignment of sources to parts is the feeding map in [[knowledge/pro
 - *paper chapter N* is section N of the Promptotyping paper, which numbers its sections 1 to 4 with subsections. The Project Knowledge Base named for Part II is section 2.1.
 - *slide section* names a run of slides in the deck export, located by the slide title. The export carries no heading structure of its own.
 - *hands-on chains* are the sections 3.8, 4.6, 5.8, 6.7 and 7.11 of the German Full Lecture Notes together with the slides that accompany them.
+- *Promptotyping templates* is the template set of `_content/promptotyping-document/`, entered as one source. The folder holds seventeen templates at the commit named in the register, where the note that preceded the ingest said eighteen. A single template is located inside the source by its heading, which carries the file name of the template it reproduces.
 
 ## Sources named by the feeding map and not yet ingested
 
-- **Promptotyping document templates.** The eighteen template documents in `_content/promptotyping-document/` of DigitalHumanitiesCraft/Promptotyping, named as a Part IV source. Whether they enter as one source or as eighteen is open, see [[knowledge/plan]].
 - **Research literature.** The publications the paper and the lecture notes cite. They enter as `publication` sources with a CSL JSON record in `references/` at the point where an assertion needs one of them directly rather than through the paper.
 
 ## Rights
@@ -53,4 +54,4 @@ The vault document is the author's own writing and came from a private Obsidian 
 
 ## Conversion
 
-The originals are Markdown, so the ingest converted nothing and only stamped a block ID onto every anchor-relevant line. One effect is worth knowing when a slide passage is quoted. The slide-text export carries vertical tab characters as soft line breaks inside a slide, and the stamping turned each of them into an ordinary line break, so the representation of the deck holds more lines than its original. The wording is unchanged.
+The originals are Markdown, so the ingest converted nothing and only stamped a block ID onto every anchor-relevant line. The template set is the one source assembled rather than copied. Its original is the seventeen template files concatenated in the functional order of the index template, each under a heading that names its file and its template version, with the headings of each template demoted by two levels so that the assembled file carries one hierarchy. The template texts themselves are unchanged. One effect is worth knowing when a slide passage is quoted. The slide-text export carries vertical tab characters as soft line breaks inside a slide, and the stamping turned each of them into an ordinary line break, so the representation of the deck holds more lines than its original. The wording is unchanged.
