@@ -73,3 +73,5 @@ One row per chapter of the output, with the English file and its German counterp
 - Decide which dataset carries the worked example of Part VI.
 - Check the content of the DH Developer Skriptum before any of it is adopted into the book, as [[knowledge/plan#Working mode]] records.
 - Confirm or withdraw the public reading view of the unaccepted drafts.
+- Decide how the vault keeps the earlier version of the Promptotyping paper while the paper is under submission. Its full text still stands in `10_markdown/documents/promptotyping-paper.md`, its distillate in `20_distillates/documents/promptotyping-paper.md` quotes it closely, and several assertions share wording with the submitted manuscript. Removing them breaks the grounding of the Part IV to VI chapters, so it needs a decision on how those chapters are grounded instead.
+- Decide whether chapter 11 keeps a title that repeats most of the paper's title.

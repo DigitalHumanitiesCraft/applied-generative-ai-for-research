@@ -9,7 +9,7 @@ method:
 status: draft
 language: en
 created: "2026-08-22"
-updated: "2026-08-22"
+updated: "2026-11-10"
 related: [project, specification, state, schema, operations]
 ---
 
@@ -23,7 +23,7 @@ The register carries texts under the source type `document`, because the project
 
 | Source | Vault path | Origin | Repository | Commit | Retrieved |
 |---|---|---|---|---|---|
-| Promptotyping paper, version 0.9 | `00_sources/promptotyping-paper.md`, `10_markdown/documents/promptotyping-paper.md` | `research-artefacts/promptotyping-paper.md` | DigitalHumanitiesCraft/Promptotyping | bf0c848a5c0ebf4a7fa320f114721afe1b648df2 | 2026-08-22 |
+| Promptotyping paper | `10_markdown/documents/promptotyping-paper.md` (earlier version, see below) | the paper as a work, see below | – | – | 2026-08-22 |
 | Full Lecture Notes, English | `00_sources/lecture-notes-en.md`, `10_markdown/documents/lecture-notes-en.md` | `script/full-lecture-notes-en.md` | DigitalHumanitiesCraft/knowledge-context-agentic-engineering | 5c0e9d66bc9a169a0c184742bfe247fc232c7439 | 2026-08-22 |
 | Full Lecture Notes, German | `00_sources/lecture-notes-de.md`, `10_markdown/documents/lecture-notes-de.md` | `script/full-lecture-notes-de.md` | DigitalHumanitiesCraft/knowledge-context-agentic-engineering | 5c0e9d66bc9a169a0c184742bfe247fc232c7439 | 2026-08-22 |
 | Full Slide Deck, slide-text export | `00_sources/slide-deck.md`, `10_markdown/documents/slide-deck.md` | `slides/full-slide-deck.md` | DigitalHumanitiesCraft/knowledge-context-agentic-engineering | 5c0e9d66bc9a169a0c184742bfe247fc232c7439 | 2026-08-22 |
@@ -31,6 +31,8 @@ The register carries texts under the source type `document`, because the project
 | Promptotyping Document Templates | `00_sources/promptotyping-document-templates.md`, `10_markdown/documents/promptotyping-document-templates.md` | `_content/promptotyping-document/` | DigitalHumanitiesCraft/Promptotyping | 6a5cfa46a767a8443908aeecbbf44831f3aea277 | 2026-08-22 |
 
 Both source repositories were clean at the commit named above when the copies were taken, so the file in `00_sources/` is the committed state and not a working-tree variant.
+
+The Promptotyping paper entered on 2026-08-22 as an earlier full version of the manuscript. The book cites it as a work, Christopher Pollin, *Promptotyping. Translating Research Data into Research Artefacts through Knowledge, Context, and Agentic Engineering*, submitted to the Zeitschrift für digitale Geisteswissenschaften, 2026, together with the public method page https://dhcraft.org/Promptotyping/. The journal's declaration requires that no digital preliminary version of the contribution has been published, so the copy of the original in `00_sources/` was removed from the working state on 2026-11-10 and the chapters were reworded where they shared wording with the submitted manuscript. The Markdown representation and the distillate of the earlier version are still in the vault, and their handling is an open operator decision recorded in [[knowledge/state]].
 
 ## What each source feeds
 
