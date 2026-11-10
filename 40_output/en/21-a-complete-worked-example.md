@@ -26,7 +26,7 @@ The tutorial dataset has to carry genuine semantic complexity, missing values, u
 
 ## The chain
 
-The example proceeds in four movements that correspond to the four forms of work, and the steps within them are ordered without being a fixed sequence, since findings from implementation may return the work to any earlier form.[^6]
+The example proceeds in four movements that correspond to the four forms of work, and the steps within them are ordered without being a fixed sequence, since a finding made in Implementation can lead back to any earlier form.[^6]
 
 The first movement prepares. The research question is formulated, the users and scholarly activities are identified, and the data are inspected and profiled. Preparation brings the material into an accessible project environment and makes its status explicit, requiring accessibility for inspection and computational use with provenance and known limitations documented rather than normalisation or formal modelling.[^7] Profiling belongs to Exploration and follows the scale of the material, so a small tutorial dataset is examined directly while the same step on a large collection would be a script that extracts and aggregates structure across the corpus.[^5] Identifying users and activities produces the narrative form of the requirements, in which a role, a goal, and a benefit are named and later matched to a checkable expectation with an acceptance criterion.[^8]
 

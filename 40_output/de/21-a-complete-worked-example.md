@@ -27,7 +27,7 @@ Der Tutorial-Datensatz muss echte semantische Komplexität, fehlende Werte, Unsi
 
 ## Die Kette
 
-Das Beispiel läuft in vier Bewegungen, die den vier Arbeitsformen entsprechen, und die Schritte innerhalb einer Bewegung sind geordnet, ohne eine feste Folge zu sein, denn Befunde aus der Implementation können die Arbeit in jede frühere Form zurückführen.[^6]
+Das Beispiel läuft in vier Bewegungen, die den vier Arbeitsformen entsprechen, und die Schritte innerhalb einer Bewegung sind geordnet, ohne eine feste Folge zu sein, denn ein Befund aus der Implementation kann zu jeder früheren Form zurückführen.[^6]
 
 Die erste Bewegung bereitet vor. Die Forschungsfrage wird formuliert, die Nutzenden und ihre wissenschaftlichen Tätigkeiten werden bestimmt, und die Daten werden inspiziert und profiliert. Preparation bringt das Material in eine zugängliche Projektumgebung und macht seinen Stand explizit, wobei sie Zugänglichkeit für Prüfung und computationelle Nutzung mit dokumentierter Provenienz und dokumentierten Grenzen verlangt statt Normalisierung oder formaler Modellierung.[^7] Das Profiling gehört zur Exploration und richtet sich nach dem Umfang des Materials, ein kleiner Tutorial-Datensatz wird also direkt untersucht, während derselbe Schritt an einer großen Sammlung ein Skript wäre, das Struktur über das Korpus extrahiert und aggregiert.[^5] Die Bestimmung von Nutzenden und Tätigkeiten erzeugt die narrative Form der Anforderungen, in der Rolle, Ziel und Nutzen benannt und später einer prüfbaren Erwartung mit Akzeptanzkriterium zugeordnet werden.[^8]
 
