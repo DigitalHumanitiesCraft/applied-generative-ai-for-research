@@ -9,7 +9,7 @@ method:
 status: draft
 language: en
 created: "2026-08-22"
-updated: "2026-08-22"
+updated: "2026-11-10"
 related: [specification, state]
 ---
 
@@ -81,3 +81,7 @@ The seven conditions of the Grounded Vault were grounded one at a time in chapte
 Two terms in these chapters are coinages and are marked as such at the point of use. Verification debt in chapter 10 has no anchor in any source of this lane and is assembled from the assertions on purpose-bound acceptance and the four assessment levels. The layered diagnosis of a defect is stated there as a question rather than a method, because the sources establish that a defect can originate outside the implementation without giving a procedure for locating it, and the diagnostic grid of the document typology in Part IV is where the two meet.
 
 Every chapter ends with a gap list whose lead sentence carries a posit footnote and whose bullets stand in the same block, so the list satisfies the anchor contract without pretending to be grounded. The recurring gaps are the same across the eleven chapters. Quantitative claims about model behaviour rest on the secondary report of the lecture notes and need the underlying publications as records of their own, four failure modes the outline names have no anchor at all, and the distinction between curated and deterministically generated knowledge belongs to the document typology of the other lane. The register in [[knowledge/state]] carries the writing status of the eleven chapters, and the gap lists carry what the next pass has to close.
+
+## 2026-11-10 — The author's decision of 2026-10-15 recorded in the repository
+
+The author decided on 2026-10-15 that the book stays a side project, that its text modules grow in this Grounded Vault through concrete writing commissions, and that the DH Developer Skriptum merges into the book as a writing project whose texts remain source material and whose adoption needs a check first. The decision was recorded only in the project overview of the book in the author's Obsidian vault (section Schreibauftrag und Zusammenführung), which is the source of this entry. [[knowledge/plan]] now carries it as its working mode and [[knowledge/project]] as the scope of the book. The same review found the lane order of the plan behind the Git history. U1 was still marked as running and U4 as waiting for an accepted chapter, while all chapters exist as drafts in both languages and the reading view has been served at `https://dhcraft.org/applied-generative-ai-for-research/` since 2026-08-22 although no chapter is accepted. The plan now states this, and confirming or withdrawing the public reading view is an open decision of the author in [[knowledge/state]].

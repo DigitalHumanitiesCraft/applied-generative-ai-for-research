@@ -9,13 +9,15 @@ method:
 status: draft
 language: en
 created: "2026-08-22"
-updated: "2026-08-22"
+updated: "2026-11-10"
 related: [specification, plan, sources, outline, state, journal]
 ---
 
 # Project
 
 This repository produces the book *Applied Generative AI for Research. Knowledge, Context, Agents, and Verifiable Research Artefacts*, a bilingual scholarly synthesis on the controlled use of generative models and agentic systems in research. The manuscript is written inside a Grounded Vault instance, so the book applies the method it describes to its own genesis and every substantive claim of the finished text resolves through the anchor chain to a passage in a registered source. The purpose in full, with the evidence obligation and the parameters of the instance, stands in [[knowledge/specification]].
+
+By the author's decision of 2026-10-15 the book is a side project that brings prompt, context, knowledge and agentic engineering together from a Digital Humanities perspective, drawing on existing experiments, videos, methods, working practices and Promptotyping. Text modules are written in this vault when a concrete writing commission names them. The DH Developer Skriptum merges into the book as a writing project, and its texts stay available as source material whose adoption needs a check first. The working mode that follows is in [[knowledge/plan#Working mode]], and the source of the decision is the project overview of the book in the author's Obsidian vault.
 
 ## Sub-goals
 

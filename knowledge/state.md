@@ -9,7 +9,7 @@ method:
 status: draft
 language: en
 created: "2026-08-22"
-updated: "2026-08-22"
+updated: "2026-11-10"
 related: [operations, journal]
 ---
 
@@ -71,3 +71,5 @@ One row per chapter of the output, with the English file and its German counterp
 
 - Fix the cross-family reviewer for the machine review contract.
 - Decide which dataset carries the worked example of Part VI.
+- Check the content of the DH Developer Skriptum before any of it is adopted into the book, as [[knowledge/plan#Working mode]] records.
+- Confirm or withdraw the public reading view of the unaccepted drafts.
