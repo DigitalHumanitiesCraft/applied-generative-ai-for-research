@@ -9,13 +9,17 @@ method:
 status: draft
 language: en
 created: "2026-08-22"
-updated: "2026-11-10"
+updated: "2026-11-14"
 related: [specification, state]
 ---
 
 # Journal
 
 Chronological decision history of the vault, append-only, newest entry last. Content documents carry only current state; the reasoning that led there lives here. An entry records a decision, a rejected alternative with the reason, or a calibration result of a check mechanism.
+
+## Open
+
+- The open work of the vault is kept as a short current list in [[knowledge/state#Open work]], which this vault's `CLAUDE.md` reads at session start. No handover point is open beyond it.
 
 ## Entry format
 
@@ -93,3 +97,7 @@ The Promptotyping paper is under submission at the Zeitschrift für digitale Gei
 A mechanical comparison of the chapters against the submitted manuscript found shared word sequences of eight or more words, outside references, in the English chapters 11 to 15, 17, 20, 21 and 25 and in the generated pages that render them. Those passages were reformulated for learners in both languages, keeping the paper's terms, and the German counterparts were checked by hand as translations of the same sentences. After the rework no chapter shares such a sequence with the submitted manuscript. Chapter 11 now names the paper as a work where it introduces the method, together with the public method page https://dhcraft.org/Promptotyping/, and [[knowledge/sources]] records the paper the same way, without a link to a manuscript version. The chapters still share wording with the earlier version the vault ingested, which is no longer the submitted text.
 
 The removal stopped at the original. The Markdown representation, the distillate and the assertions of the earlier version remain, because the explicit commission covered one file and removing them breaks the grounding of Parts IV to VI. How the vault handles them is an open decision in [[knowledge/state]].
+
+## 2026-11-14 — The handoff document dissolved into the journal
+
+The operator decided on 2026-11-14 that a Promptotyping repository keeps no `knowledge/handoff.md` and that the journal opens with what is open. The handoff of this vault held no open point and was removed. The new `## Open` section points to [[knowledge/state#Open work]], which already carries the vault's open work, so the list is not duplicated. [[knowledge/index]] lost the handoff row and routes the next step to that section. The entry that instantiated the vault keeps its mention of the handoff as written.

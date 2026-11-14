@@ -10,7 +10,7 @@ status: draft
 language: en
 created: "2026-08-22"
 updated: "2026-08-22"
-related: [project, specification, plan, sources, outline, schema, operations, state, journal, handoff]
+related: [project, specification, plan, sources, outline, schema, operations, state, journal]
 ---
 
 # Index
@@ -20,7 +20,7 @@ Navigation and terminology of the vault. Human readers start at [[HOME]]; agents
 ## Reading paths
 
 - **Understand the project**: [[knowledge/project]] for what is being built and from what, [[knowledge/specification]] for purpose and parameters, then [[knowledge/state]] for where work stands.
-- **Find the next step**: [[knowledge/plan]] for the lanes and their order, [[knowledge/handoff]] for open handover points.
+- **Find the next step**: [[knowledge/plan]] for the lanes and their order, [[knowledge/state#Open work]] for open work.
 - **Work on a chapter**: [[knowledge/outline]] for what the chapter has to cover, [[knowledge/sources]] for the material it draws on.
 - **Produce or check content**: [[knowledge/schema]] for what a well-formed artifact is, [[knowledge/operations]] for the chain that produces it.
 - **Understand a past decision**: [[knowledge/journal]], append-only, newest last.
@@ -35,7 +35,6 @@ Navigation and terminology of the vault. Human readers start at [[HOME]]; agents
 | [[knowledge/plan]] | the four lanes and their order | as work proceeds |
 | [[knowledge/outline]] | the canonical outline of the book, verbatim from the expose | on structure changes |
 | [[knowledge/sources]] | the source register with provenance and rights | on a new source |
-| [[knowledge/handoff]] | open handover points waiting for integration | as points arrive |
 | [[knowledge/schema]] | layer model, document types, anchor mechanics, audit trail | rarely, by decision |
 | [[knowledge/operations]] | the chains: acquire, ingest, distill, assertions, chapters, query, check | rarely, by decision |
 | [[knowledge/state]] | source inventory, chapter register, everything volatile | constantly |
